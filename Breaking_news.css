@@ -1,0 +1,14 @@
+h1{
+    letter-spacing: 5px;
+    font-family: 'Courier New';
+}
+img{
+    border-radius:50%;
+    border:5px dotted brown;
+    height: 150px;
+    float: left;
+}
+div{
+    align-items: center;
+    width: 700px;
+}

@@ -1,0 +1,68 @@
+body{
+    font-family:Roboto,sans-serif;
+    background: #e2d7aa;
+    color: #000;
+    font-size: 16px;
+    width: 1180px;
+    align-content: center;
+}
+img{
+    width: 1100px;
+    height: 450px;
+    align-items: center;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: #000;
+    margin-top: 65px;
+}
+nav{
+    margin: 30px;
+    text-align: center;
+    color: #0a2d4a;
+    font-size: 28px;
+}
+a{
+    margin: 20px;
+}
+#image-container{
+    width: 1600px;
+    height: 450px;
+    margin-top: 65px;
+    align-items: center;
+}
+footer{
+    margin: 0px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+.row img{
+    width: 350px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+main span:last-of-type span:first-of-type img::before{
+    content: url("images/comment.png");
+    position: relative;
+    right: 5px;
+    top:7px;
+    padding:10px
+}
+.row{
+    width:360px;
+    height: 500px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-position: center;
+    padding: 10px 20px;
+}
+.cap::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+button{
+    background-color: brown;
+}

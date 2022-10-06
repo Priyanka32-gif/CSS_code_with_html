@@ -1,0 +1,49 @@
+body{
+    background-color:black;
+}
+th{
+    color:#ffffff;
+    font-family: serif, sans-serif, monospace;
+    font-size: 17px;
+    width: 200px;
+    padding-left: 5px;
+}
+table{
+    padding: 100px;
+}
+td{
+    color: bisque;
+    font-size: 17px;
+}
+.fa {
+    padding: 7px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 50%;
+  }
+  .fa:hover{
+    background-color: lightblue;
+  }
+  .fa-facebook{
+    background:black;
+    color: white;
+  }
+  .fa-twitter{
+    background: black;
+    color: white;
+  }
+  .fa-instagram{
+    background: black;
+    color: white;
+  }
+  .fa-youtube{
+    background: black;
+    color: white;
+  }
+  div{
+    background-color: #ffffff;
+    display: inline;
+  }
+

@@ -1,0 +1,17 @@
+tr:nth-child(even) {background-color:lightgreen;}
+
+.topic{
+    height: 20px;
+    color: white;
+    background-color:cadetblue;
+}
+tr:nth-child(odd){
+    background-color:cornflowerblue;
+}
+table{
+    border-collapse: collapse;
+    width: 1000px;
+}
+tr{
+    height: 40px;
+}

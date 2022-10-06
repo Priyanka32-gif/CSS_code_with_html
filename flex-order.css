@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+.header{
+    background: tomato;
+    height: 30px;
+}
+.footer{
+    background: lightgreen;
+    height: 30px;
+}
+.main-article{
+    text-align: left;
+    background: deepskyblue;
+    height: 70px;
+}
+.aside-1{
+    background: gold;
+    height: 30px;
+}
+.aside-2{
+    background: hotpink;
+    height: 30px;
+}
+.container{
+    width: 700px;
+    padding: 10px;
+    flex: 1 100%;
+}
+@media all and (min-width: 800px){
+    .main-article{flex:3 0;}
+    .aside-1{order:1;}
+    .main-article{order:2;}
+    .aside-2{order:3;}
+    .footer{order:4;}
+}
+@media all and (min-width:600px){
+    .aside{flex:1 0;}
+}
